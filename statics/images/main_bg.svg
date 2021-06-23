@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="타원_3" x="-563.5" y="-549.5" width="1207" height="2189" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_2" x="-623.5" y="-549.5" width="1207" height="2189" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_1" x="-683.5" y="-549.5" width="1207" height="2189" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.729"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-_1-1_관리자로그인_2">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="_1-1_관리자로그인_2" data-name="1-1 관리자로그인 – 2" clip-path="url(#clip-_1-1_관리자로그인_2)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="그룹_20" data-name="그룹 20" transform="translate(-4.326 -975.663)">
+      <g id="그룹_19" data-name="그룹 19" transform="translate(93.63 1043.697)">
+        <path id="패스_4" data-name="패스 4" d="M362.994,1267.1h4.641l-2.32-6.46Z" transform="translate(-295.352 -1201.649)" fill="#fff"/>
+        <path id="패스_5" data-name="패스 5" d="M168.777,1061.851l.61-.694,6.393-7.271a2.914,2.914,0,1,0-.261-.261l-7.274,6.39-1.651,1.451a45.838,45.838,0,0,0-6.847-.514c-.667,0-1.329.022-1.989.05l-7.361-6.467-6.639-5.832a2.819,2.819,0,1,0-.375.3l5.871,6.678,4.944,5.624a45.475,45.475,0,0,0-27.59,76.3l-.009.008s-.262,4.348-7.646,8.667c0,0-3.448,1.964-2,4.026,0,0,1.207,1.788,5.9,2.088,0,0,11.262.956,19.8-3.777a45.5,45.5,0,1,0,26.116-86.764ZM146.11,1107.06a9.776,9.776,0,0,1-1.285,4.993,9.257,9.257,0,0,1-3.526,3.481,10.041,10.041,0,0,1-5.016,1.263,10.257,10.257,0,0,1-5.084-1.263,9.206,9.206,0,0,1-3.549-3.481,10.341,10.341,0,0,1,0-9.986,9.2,9.2,0,0,1,3.549-3.48,10.257,10.257,0,0,1,5.084-1.263,11,11,0,0,1,4.311.819,9.276,9.276,0,0,1,3.253,2.229,8.194,8.194,0,0,1,1.854,3.162h-4.549a4.558,4.558,0,0,0-1.877-1.74,6.092,6.092,0,0,0-2.9-.671,5.976,5.976,0,0,0-3,.762,5.479,5.479,0,0,0-2.1,2.116,6.124,6.124,0,0,0-.762,3.06,6.252,6.252,0,0,0,.762,3.082,5.51,5.51,0,0,0,2.1,2.15,5.9,5.9,0,0,0,3,.773,6.2,6.2,0,0,0,2.525-.5,5.123,5.123,0,0,0,1.854-1.331,4.227,4.227,0,0,0,.944-1.763h-5.664v-3.5H146.11Zm6.6,9.281h-4.14V1097.8h4.14Zm22.2-9.281a9.776,9.776,0,0,1-1.285,4.993,9.257,9.257,0,0,1-3.526,3.481,10.041,10.041,0,0,1-5.016,1.263,10.258,10.258,0,0,1-5.084-1.263,9.206,9.206,0,0,1-3.549-3.481,10.342,10.342,0,0,1,0-9.986,9.2,9.2,0,0,1,3.549-3.48,10.258,10.258,0,0,1,5.084-1.263,11.005,11.005,0,0,1,4.311.819,9.276,9.276,0,0,1,3.253,2.229,8.2,8.2,0,0,1,1.854,3.162h-4.55a4.557,4.557,0,0,0-1.877-1.74,6.092,6.092,0,0,0-2.9-.671,5.975,5.975,0,0,0-3,.762,5.479,5.479,0,0,0-2.1,2.116,6.124,6.124,0,0,0-.762,3.06,6.252,6.252,0,0,0,.762,3.082,5.51,5.51,0,0,0,2.1,2.15,5.9,5.9,0,0,0,3,.773,6.2,6.2,0,0,0,2.525-.5,5.122,5.122,0,0,0,1.854-1.331,4.227,4.227,0,0,0,.944-1.763h-5.664v-3.5h10.078Zm14.194,9.281-1.3-3.594h-7.188l-1.3,3.594h-4.277l7.188-18.54h4.3l7.188,18.54Z" transform="translate(-114.25 -1043.697)" fill="#fff"/>
+      </g>
+      <text id="GIGA_MEET" data-name="GIGA MEET" transform="translate(85.928 1171.306)" fill="#fff" font-size="15" font-family="GmarketSansTTFBold, Gmarket Sans TTF"><tspan x="0" y="0">GIGA MEET</tspan></text>
+    </g>
+    <g id="그룹_22" data-name="그룹 22" transform="translate(-61 -440.132)">
+      <g transform="matrix(1, 0, 0, 1, 61, 440.13)" filter="url(#타원_3)">
+        <ellipse id="타원_3-2" data-name="타원 3" cx="596" cy="1087" rx="596" ry="1087" transform="translate(-561 -547)" fill="#090a0a" opacity="0.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 61, 440.13)" filter="url(#타원_2)">
+        <ellipse id="타원_2-2" data-name="타원 2" cx="596" cy="1087" rx="596" ry="1087" transform="translate(-621 -547)" fill="#090a0a" opacity="0.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 61, 440.13)" filter="url(#타원_1)">
+        <ellipse id="타원_1-2" data-name="타원 1" cx="596" cy="1087" rx="596" ry="1087" transform="translate(-681 -547)" fill="#090a0a" opacity="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

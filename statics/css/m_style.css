@@ -1,0 +1,40 @@
+
+
+/* 1. mobile (480px ~ 767px) 모바일 */ 
+@media all and (max-width:767px) {
+	
+	.pc {
+		display: none !important ;
+	}
+
+    
+    
+/* Mobile __Style__End */ }
+
+
+
+
+/* 2. tablet (768px ~ 1023px) 태블릿 */
+@media all and (min-width:768px) and (max-width:1023px) {
+    .mob {
+		display: none !important ;
+	}  
+    
+    
+    
+/* tablet __Style__End */ }
+
+
+
+
+/* 3. PC (1024px) 윈도우 */ 
+@media all and (min-width:1024px) {
+    .mob {
+		display: none !important ;
+	}   
+    
+    
+/* Pc __Style__End */ }
+
+
+

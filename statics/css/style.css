@@ -1,0 +1,237 @@
+/* 메인스타일 */
+.wrap_main {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../images/main_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main {
+    width: 26.5vw;
+    height: 100vh;
+}
+#main > div {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 a img {
+    width: 6vw;
+}
+.copyright {
+    text-align: center;
+    font-size: 0.7vw;
+    color: #666;
+    padding-right: 1vw;
+}
+
+#ad_login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+#login_logo {
+    display: block;
+    width: 68px;
+    height: 81.29px;
+    background: url(../images/login_logo.svg) no-repeat center/cover;
+}
+.form h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 25px 0 20px;
+}
+.form_list {
+    margin-bottom: 10px;    
+    box-sizing: border-box;
+    border-bottom: 1px solid #d8d8d8;
+}
+.form_list:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.form_list label {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 15px center;
+}
+label.id_bg {
+    background-image: url(../images/icon_id.svg);    
+}
+label.pw_bg {
+    background-image: url(../images/icon_pw.svg);    
+}
+.form_list input {
+    float: left;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    font-size: 14px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background: none;
+    padding: 10px 20px;
+}
+.login_btn {
+    background: #d7000f;
+    border: none;
+    width: 180px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.login_btn:hover {
+    background: #090a0a;
+}
+.bg_title {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 4.9vw;
+    height: 100vh;
+    background: url(../images/bg_ad_login.svg)no-repeat center/contain;
+    margin-right: 4vw;
+}
+
+
+/* 관리자모드 스타일 */
+#admin {
+    height: 7.3vw;
+    box-sizing: border-box;
+    padding: 1.04vw 0;
+}
+#admin img {
+    height: 5.2vw;
+}
+.cont {
+    margin: 0 auto;
+    width: 60vw;
+    position: relative;
+}
+.cont h3 {
+    line-height: 45px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.cont_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.cont_btn > a {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+.member_box li {
+    font-size: 14px;
+}
+
+
+.member_list { 
+    width: 100%;
+    margin-top: 10px;
+    height: 400px;
+}
+.list {
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #d8d8d8;
+}
+.list:after {
+    display: none;
+}
+.member_title { /* 회원리스트 제목 */
+    height: 50px;
+    line-height: 50px;
+    color: #111;
+}
+.member_title li {
+    font-size: 15px;
+    letter-spacing: -0.03em;
+}
+
+/* 회원리스트 구분목록 */
+.check {
+    width: 3vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.check input {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+.member_id {
+    width: 7vw;
+}
+.member_pw, .member_tel {
+    width: 7.8vw;
+}
+.member_name {
+    width: 5.2vw;
+}
+.member_mail {
+    width: 11vw;
+}
+.member_use, .member_modify {
+    width: 5vw;
+}
+
+
+
+
+
+
+
+.copyright.admin {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.bg_title.admin {    
+    background: url(../images/bg_admin.svg)no-repeat center/contain;
+}
+

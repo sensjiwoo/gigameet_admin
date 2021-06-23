@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="631" height="1080" viewBox="0 0 631 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_32" data-name="사각형 32" width="631" height="1080" transform="translate(251 -1527)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="타원_3" x="-563.5" y="-549.5" width="1207" height="2189" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_2" x="-623.5" y="-549.5" width="1207" height="2189" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_1" x="-683.5" y="-549.5" width="1207" height="2189" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.729"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="마스크_그룹_1" data-name="마스크 그룹 1" transform="translate(-251 1527)" clip-path="url(#clip-path)">
+    <g id="그룹_22" data-name="그룹 22" transform="translate(190 -1967.132)">
+      <g transform="matrix(1, 0, 0, 1, 61, 440.13)" filter="url(#타원_3)">
+        <ellipse id="타원_3-2" data-name="타원 3" cx="596" cy="1087" rx="596" ry="1087" transform="translate(-561 -547)" fill="#090a0a" opacity="0.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 61, 440.13)" filter="url(#타원_2)">
+        <ellipse id="타원_2-2" data-name="타원 2" cx="596" cy="1087" rx="596" ry="1087" transform="translate(-621 -547)" fill="#090a0a" opacity="0.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 61, 440.13)" filter="url(#타원_1)">
+        <ellipse id="타원_1-2" data-name="타원 1" cx="596" cy="1087" rx="596" ry="1087" transform="translate(-681 -547)" fill="#090a0a" opacity="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
