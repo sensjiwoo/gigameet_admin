@@ -7,7 +7,7 @@
 
     <title>GIGA MEET</title>
     
-    <script src='statics/js/custom.js'></script>
+    
     <link rel='shortcut icon' href='statics/images/favicon.ico'>
     <link rel='stylesheet' href='statics/css/reset.css'>
     <link rel='stylesheet' href='statics/css/style.css'>
@@ -15,8 +15,8 @@
 
 </head>
 <body>
-    <div class="wrap_admin">
-        <header id="admin">
+    <div class='wrap_admin'>
+        <header id='admin'>
             <h1>
                 <a href='index.html' />
                     <img src='statics/images/logo_red.svg' alt='gigameet 로고'>
@@ -25,21 +25,21 @@
         </header>
         <div class='blank'></div>
         <div class='cont'>
-            <div class="title">
+            <div class='title'>
                 <h3>adminstrator</h3>     
-                <div class="menu cl">
-                    <input class="find_txt" type="text" placeholder='검색어를 입력해주세요'>
-                    <a href="#none" class='find' />
+                <div class='menu cl'>
+                    <input class='find_txt' type='text' placeholder='검색어를 입력해주세요'>
+                    <a href='#none' class='find' />
                         <img src='statics/images/btn_find.svg' alt='회원찾기 버튼'>
                     </a>
-                    <a href="#none" class='add' />
+                    <a href='#none' class='add' />
                         <img src='statics/images/btn_add.svg' alt='회원추가 버튼'>
                     </a>
                 </div>       
             </div>
             <div class='member_box'>                
                 <ul class='member_title list'>
-                    <li class="check">
+                    <li class='check'>
                         선택
                     </li>
                     <li class='member_id'>
@@ -67,8 +67,8 @@
                 <ul class='member_list'>                         
                     <li>
                         <ul class='member_info list'>
-                            <li class="check">
-                                <input type="checkbox" name="select" value=""></input>
+                            <li class='check'>
+                                <input type='checkbox' name='select' value=''></input>
                             </li>
                             <li class='member_id'>
                                 <span>gy88</span>
@@ -89,14 +89,14 @@
                                 <span>on</span>
                             </li>
                             <li class='member_modify'>
-                                <a href="#" / class='modify_btn'>수정</a>
+                                <a href='#' / class='modify_btn'>수정</a>
                             </li>    
                         </ul>    
                     </li>
                     <li>
                         <ul class='member_info list'>
-                            <li class="check">
-                                <input type="checkbox" name="select" value=""></input>
+                            <li class='check'>
+                                <input type='checkbox' name='select' value=''></input>
                             </li>
                             <li class='member_id'>
                                 <span>gy88</span>
@@ -113,88 +113,116 @@
                             <li class='member_mail'>
                                 <span>gy88@email.com</span>
                             </li>
-                            <li class='member_use used on'>
-                                <span>on</span>
+                            <li class='member_use used'>
+                                <span>off</span>
                             </li>
                             <li class='member_modify'>
-                                <a href="#" / class='modify_btn'>수정</a>
+                                <a href='#' / class='modify_btn'>수정</a>
                             </li>    
                         </ul>    
                     </li>
-                    <li>
-                        <ul class='member_info list'>
-                            <li class="check">
-                                <input type="checkbox" name="select" value=""></input>
-                            </li>
-                            <li class='member_id'>
-                                <span>gy88</span>
-                            </li>
-                            <li class='member_name'>
-                                <span>김가영</span>
-                            </li>
-                            <li class='member_pw'>
-                                <span>********</span>
-                            </li>
-                            <li class='member_tel'>
-                                <span>010-7262-8259</span>
-                            </li>
-                            <li class='member_mail'>
-                                <span>gy88@email.com</span>
-                            </li>
-                            <li class='member_use used on'>
-                                <span>on</span>
-                            </li>
-                            <li class='member_modify'>
-                                <a href="#" / class='modify_btn'>수정</a>
-                            </li>    
-                        </ul>    
-                    </li>                        
                 </ul>
             </div>
         </div>
+        <div class='bg_title admin'></div>
         <p class='copyright admin'>© 2021. GIGAKOREA all rights reserved.</p>
-        <div class="bg_title admin"></div>
-        <div class="modal">
+
+        <div class='modal'>
             <div id='pop_sign' class='popup'>
                 <div class='pop_header'>
-                    <!-- <img src='statics/images/logo_red.svg' alt='gigameet 로고'> -->
                     <h3>회원가입</h3>
                 </div>
                 <div class='pop_list'>
                     <p class='pop_id'>
-                        <label for="id_move">아이디</label>
-                        <input id="id_move" type="text" placeholder='아이디를 입력해주세요'>
+                        <label for='id_move'>아이디</label>
+                        <input id='id_move' type='text' placeholder='아이디를 입력해주세요'>
                     </p>
                     <p class='pop_name'>
-                        <label for="name_move">이름</label>
-                        <input id="name_move" type="text" placeholder='이름을 입력해주세요'>
+                        <label for='name_move'>이름</label>
+                        <input id='name_move' type='text' placeholder='이름을 입력해주세요'>
                     </p>
                     <p class='pop_pw'>
-                        <label for="pw_move">비밀번호</label>
-                        <input id="pw_move" type="password" placeholder='비밀번호를 입력해주세요'>
+                        <label for='pw_move'>비밀번호</label>
+                        <input id='pw_move' type='password' placeholder='비밀번호를 입력해주세요'>
                     </p>
                     <p class='pop_pw2'>
-                        <label for="pw2_move">비밀번호 확인</label>
-                        <input id="pw2_move" type="password" placeholder='비밀번호를 한번 더 입력해주세요'>
+                        <label for='pw2_move'>비밀번호 확인</label>
+                        <input id='pw2_move' type='password' placeholder='비밀번호를 한번 더 입력해주세요'>
                     </p>
                     <p class='pop_tel'>
-                        <label for="tel_move">전화번호</label>
-                        <input id="tel_move" type="tel" placeholder='전화번호를 입력해주세요'>
+                        <label for='tel_move'>전화번호</label>
+                        <input id='tel_move' type='tel' placeholder='전화번호를 입력해주세요'>
                     </p>
                     <p class='pop_mail'>
-                        <label for="mail_move">이메일</label>
-                        <input id="mail_move" type="email" placeholder='이메일을 입력해주세요'>
+                        <label for='mail_move'>이메일</label>
+                        <input id='mail_move' type='email' placeholder='이메일을 입력해주세요'>
                     </p>
                     <div class='pop_btnbox'>
                         <button type='button' class='pop_btn pop_close'>취소하기</button>
                         <button type='button' class='pop_btn pop_signup'>가입하기</button>
                     </div>
+                </div>                
+            </div>
+            <div id='pop_modi' class='popup'>
+                <div class='pop_header'>
+                    <h3>개인정보수정</h3>
                 </div>
-                
+                <div class='pop_list'>                    
+                    <p class='pop_name'>
+                        <label for='name_move2'>이름</label>
+                        <input id='name_move2' type='text' placeholder='이름을 입력해주세요'>
+                    </p>
+                    <p class='pop_pw'>
+                        <label for='pw_move2'>비밀번호</label>
+                        <input id='pw_move2' type='password' placeholder='비밀번호를 입력해주세요'>
+                    </p>
+                    <p class='pop_pw2'>
+                        <label for='pw2_move2'>비밀번호 확인</label>
+                        <input id='pw2_move2' type='password' placeholder='비밀번호를 한번 더 입력해주세요'>
+                    </p>
+                    <p class='pop_tel'>
+                        <label for='tel_move2'>전화번호</label>
+                        <input id='tel_move2' type='tel' placeholder='전화번호를 입력해주세요'>
+                    </p>
+                    <p class='pop_mail'>
+                        <label for='mail_move2'>이메일</label>
+                        <input id='mail_move2' type='email' placeholder='이메일을 입력해주세요'>
+                    </p>
+                    <div class='pop_btnbox'>
+                        <button type='button' class='pop_btn pop_close'>취소하기</button>
+                        <button type='button' class='pop_btn pop_modify'>수정하기</button>
+                    </div>
+                </div>                
             </div>
         </div>
     </div>
     <script src='statics/js/jquery3.6.0.js'></script>
+    <script>        
+        window.onload = function(){
+            console.log('시작');
+            // 검색창 열기
+            $(".find").click(function(){
+                $(".find_txt").addClass('act');
+            });
+            // 회원가입창 열기
+            $(".add").click(function(){
+                $(".modal").addClass('on');
+                $("#pop_sign").addClass('on');
+            });
+            
+            // 개인정보수정창 열기
+            $(".modify_btn").click(function(){
+                $(".modal").addClass('on');
+                $("#pop_modi").addClass('on');
+            });
+
+            // 팝업창 닫기
+            $('.pop_close').click(function(){
+                $(".modal").removeClass('on');
+                $(".popup").removeClass('on');
+            });
+        }
+    </script>
 </body>
 </html>
 
