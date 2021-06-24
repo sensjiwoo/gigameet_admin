@@ -24,7 +24,7 @@ h1 a {
     align-items: center;
     justify-content: center;
 }
-h1 a img {
+#main h1 a img {
     width: 6vw;
 }
 .copyright {
@@ -126,45 +126,85 @@ label.pw_bg {
 
 
 /* 관리자모드 스타일 */
-#admin {
-    height: 7.3vw;
-    box-sizing: border-box;
-    padding: 1.04vw 0;
+.wrap_admin {
+    
 }
-#admin img {
-    height: 5.2vw;
+/* 헤더 */
+#admin {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    z-index: 99;
+}
+#admin h1 a {
+    display: block;
+    height: 70px;
+    width: auto;
+}
+#admin h1 img {
+    height: 70px;
+}
+.blank {
+    display: block;
+    background: transparent;
+    width: 100%;
+    height: 100px;
 }
 .cont {
+    width: 1200px;
     margin: 0 auto;
-    width: 60vw;
+    padding: 0 20px;
+}
+.title {
+    padding: 0 10px;
+    box-sizing: border-box;
     position: relative;
 }
-.cont h3 {
+.title h3 {
     line-height: 45px;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: bold;
-    padding-left: 20px;
 }
-.cont_btn {
+.menu {
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 0;
 }
-.cont_btn > a {
-    display: inline-block;
-    margin-left: 5px;
+.menu .find_txt {
+    float: left;
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
 }
-
+.menu .find_txt.act {
+    display: block;
+}
+.menu > a {
+    float: left;
+    display: block;
+    margin-left: 8px;
+}
+.menu > a img {
+    width: 40px;
+}
 
 .member_box li {
     font-size: 14px;
 }
-
-
 .member_list { 
     width: 100%;
-    margin-top: 10px;
     height: 400px;
 }
 .list {
@@ -179,19 +219,20 @@ label.pw_bg {
 .list:after {
     display: none;
 }
-.member_title { /* 회원리스트 제목 */
+.member_title { 
     height: 50px;
     line-height: 50px;
     color: #111;
 }
+
+
 .member_title li {
     font-size: 15px;
     letter-spacing: -0.03em;
 }
-
 /* 회원리스트 구분목록 */
 .check {
-    width: 3vw;
+    width: 50px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -202,28 +243,42 @@ label.pw_bg {
     width: 18px;
     height: 18px;
 }
-.member_id {
-    width: 7vw;
-}
-.member_pw, .member_tel {
-    width: 7.8vw;
+
+.member_id, .member_pw, .member_tel {
+    width: 150px;
 }
 .member_name {
-    width: 5.2vw;
+    width: 100px;
 }
 .member_mail {
-    width: 11vw;
+    width: 200px;
 }
 .member_use, .member_modify {
-    width: 5vw;
+    width: 90px;
 }
-
-
-
-
-
-
-
+.used {
+    height: 30px;
+    line-height: 30px;
+    background: #999;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.used.on {
+    background: #d7000f;
+}
+.member_modify > a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background: #666;
+    border-radius: 30px;
+    color: #fff;
+    transition: .4s;
+}
+.member_modify > a:hover {
+    background: #090a0a;
+}
 .copyright.admin {
     position: absolute;
     bottom: 30px;
@@ -235,3 +290,124 @@ label.pw_bg {
     background: url(../images/bg_admin.svg)no-repeat center/contain;
 }
 
+/* 모달레이어팝업 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    z-index: 999;
+    padding-top: calc((100vh - 560px)/2);
+}
+.popup {    
+    margin: auto;
+    width: 750px;
+    height: 500px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pop_header {
+    width: 180px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/logo_red.svg);
+    background-repeat: no-repeat;
+    background-size: 85px;
+    background-position: center 80px;
+}
+.pop_header h3 {
+    font-size: 24px;
+    color: #111;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.pop_list {
+    width: calc(100% - 200px);
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.pop_list > p {
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+    background-image: url(../images/icon_id.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 20px center;
+}
+
+/* 항목별 아이콘  */
+
+p.pop_name { 
+    background-image: url(../images/icon_name.svg);
+}
+p.pop_pw { 
+    background-image: url(../images/icon_pw.svg);
+}
+p.pop_pw2 { 
+    background-image: url(../images/icon_pw2.svg);
+}
+p.pop_tel { 
+    background-image: url(../images/icon_tel.svg);
+}
+p.pop_mail {
+    background-image: url(../images/icon_mail.svg);
+    
+}
+
+.pop_list label {
+    display: block;
+    width: 140px;
+    text-align: center;
+    padding-left: 20px;
+    box-sizing: border-box;    
+    font-size: 14px;
+}
+.pop_list input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eee;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+}
+.pop_btnbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pop_btn {
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    background: #d7000f;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 14px;
+}
+.pop_btn:hover {
+    background: #090a0a;
+}
+.pop_close {
+    background: #999;
+    margin-right: 10px;
+}
