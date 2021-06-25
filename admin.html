@@ -28,7 +28,7 @@
             <div class='title'>
                 <h3>adminstrator</h3>     
                 <div class='menu cl'>
-                    <input class='find_txt' type='text' placeholder='검색어를 입력해주세요'>
+                    <input class='find_txt' type='text' placeholder=''>
                     <a href='#none' class='find' />
                         <img src='statics/images/btn_find.svg' alt='회원찾기 버튼'>
                     </a>
@@ -200,7 +200,7 @@
     <script>        
             // 검색창 열기
             $(".find").click(function(){
-                $(".find_txt").addClass('act');
+                $(".find_txt").focus();
             });
             // 회원가입창 열기
             $(".add").click(function(){
