@@ -7,32 +7,7 @@
 
     <title>GIGA MEET</title>
     
-    <script>        
-        window.onload = function(){
-            console.log('시작');
-            // 검색창 열기
-            $(".find").click(function(){
-                $(".find_txt").addClass('act');
-            });
-            // 회원가입창 열기
-            $(".add").click(function(){
-                $(".modal").addClass('on');
-                $("#pop_sign").addClass('on');
-            });
-            
-            // 개인정보수정창 열기
-            $(".modify_btn").click(function(){
-                $(".modal").addClass('on');
-                $("#pop_modi").addClass('on');
-            });
-
-            // 팝업창 닫기
-            $('.pop_close').click(function(){
-                $(".modal").removeClass('on');
-                $(".popup").removeClass('on');
-            });
-        }
-    </script>
+    
     <link rel='shortcut icon' href='statics/images/favicon.ico'>
     <link rel='stylesheet' href='statics/css/reset.css'>
     <link rel='stylesheet' href='statics/css/style.css'>
@@ -153,7 +128,7 @@
         <p class='copyright admin'>© 2021. GIGAKOREA all rights reserved.</p>
 
         <div class='modal'>
-            <div id='pop_sign' class='popup'>
+            <div id='pop_sign'>
                 <div class='pop_header'>
                     <h3>회원가입</h3>
                 </div>
@@ -188,7 +163,7 @@
                     </div>
                 </div>                
             </div>
-            <div id='pop_modi' class='popup'>
+            <div id='pop_modi'>
                 <div class='pop_header'>
                     <h3>개인정보수정</h3>
                 </div>
@@ -222,7 +197,30 @@
         </div>
     </div>
     <script src='statics/js/jquery3.6.0.js'></script>
-    
+    <script>        
+            // 검색창 열기
+            $(".find").click(function(){
+                $(".find_txt").addClass('act');
+            });
+            // 회원가입창 열기
+            $(".add").click(function(){
+                $(".modal").addClass('on');
+                $("#pop_sign").addClass('on');
+            });
+            
+            // 개인정보수정창 열기
+            $(".modify_btn").click(function(){
+                $(".modal").addClass('on');
+                $("#pop_modi").addClass('on');
+            });
+
+            // 팝업창 닫기
+            $('.pop_close').click(function(){
+                $(".modal").removeClass('on');
+                $(".modal").children('div').removeClass('on');
+            });
+        
+    </script>
 </body>
 </html>
 
