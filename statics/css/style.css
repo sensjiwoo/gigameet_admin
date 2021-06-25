@@ -177,7 +177,7 @@ label.pw_bg {
     right: 20px;
     top: 0;
 }
-.menu .find_txt {
+.find_txt {
     float: left;
     border: none;
     border-bottom: 1px solid #d8d8d8;
@@ -185,11 +185,8 @@ label.pw_bg {
     height: 40px;
     padding: 10px;
     box-sizing: border-box;
-    display: none;
 }
-.menu .find_txt.act {
-    display: block;
-}
+
 .menu > a {
     float: left;
     display: block;
